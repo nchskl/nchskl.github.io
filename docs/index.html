@@ -1,3 +1,273 @@
-<html>
-    hello!
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Студент-программист | Портфолио</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+    --bg: #0b0e14;
+    --bg-soft: #111624;
+    --card: #151a2d;
+    --text: #e8ebf1;
+    --muted: #9aa3b2;
+    --accent: #5b8cff;
+    --accent-soft: rgba(91,140,255,0.15);
+    --border: #232a44;
+    --radius: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(1200px 600px at top, #12172a, var(--bg));
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    padding: 100px 20px 80px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header span {
+    color: var(--accent);
+}
+
+header p {
+    margin-top: 16px;
+    font-size: 20px;
+    color: var(--muted);
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+    max-width: 1100px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+    position: relative;
+    padding-left: 16px;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 4px;
+    height: 70%;
+    background: var(--accent);
+    border-radius: 4px;
+}
+
+/* ---------- CARDS ---------- */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: linear-gradient(180deg, var(--card), #0f1325);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    transition: all 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    border-color: var(--accent);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.card p {
+    color: var(--muted);
+}
+
+/* ---------- ABOUT ---------- */
+.about {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 32px;
+}
+
+/* ---------- SKILLS ---------- */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    padding: 10px 16px;
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 14px;
+}
+
+/* ---------- TIMELINE ---------- */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-item {
+    padding: 20px;
+    border-left: 3px solid var(--accent);
+    background: var(--bg-soft);
+    border-radius: 8px;
+}
+
+.timeline-item span {
+    font-size: 14px;
+    color: var(--accent);
+}
+
+/* ---------- CONTACT ---------- */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+}
+
+.contact a {
+    display: block;
+    padding: 20px;
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    color: var(--text);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.contact a:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1><span>Vyacheslav</span></h1>
+    <p>Студент-программист · Junior Web Developer</p>
+</header>
+
+<section>
+    <h2 class="section-title">Обо мне</h2>
+    <div class="about">
+        <p>
+            Я студент, изучаю программирование и веб-разработку.
+            Активно создаю учебные и пет-проекты, осваиваю современные технологии
+            и ищу стажировку или первую коммерческую практику.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Навыки</h2>
+    <div class="skills">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3 / Flex / Grid</div>
+        <div class="skill">JavaScript (Basic)</div>
+        <div class="skill">Python</div>
+        <div class="skill">Telegram Bots</div>
+        <div class="skill">Git / GitHub</div>
+        <div class="skill">Responsive Design</div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Проекты</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Telegram-бот</h3>
+            <p>
+                Учебный бот на Python: команды, логика,
+                взаимодействие с пользователем и API.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Сайт-портфолио</h3>
+            <p>
+                Одностраничный адаптивный сайт
+                с тёмным дизайном и анимациями.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Мини-проекты</h3>
+            <p>
+                Практика Java:
+                логика, события, интерактивные элементы.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Образование</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <span>2024 – настоящее время</span>
+            <p>Студент IT-направления, изучение веб-разработки и программирования.</p>
+        </div>
+        <div class="timeline-item">
+            <span>Самообразование</span>
+            <p>Онлайн-курсы, документация, практика и пет-проекты.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Контакты</h2>
+    <div class="contact">
+        <a href="mailto:example@mail.com">📧 example@mail.com</a>
+        <a href="#">🐙 GitHub</a>
+        <a href="#">💬 Telegram</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 · Студент-программист · ITMO
+</footer>
+
+</body>
 </html>
