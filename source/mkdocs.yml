@@ -1,6 +1,28 @@
-site_name: nchskl портфолио
+site_name: "nchskl портфолио"
+site_description: "Портфолио и лабораторные работы"
+
 theme:
-  name: mkdocs
+  name: "material"
+  language: "ru"
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: "Темная тема"
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: "Светлая тема"
 
 nav:
   - Главная: index.md
