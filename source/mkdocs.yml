@@ -5,8 +5,8 @@ theme:
   name: shadcn
 
 nav:
-  - Главная: index.md
-  - Об авторе: about.md
-  - Лабораторные работы:
-      - Лабораторная работа 1: projects/lab8.md
-      - Лабораторная работа 2: projects/lab9.md
+  - SKYLINEEE: index.md
+  - About me: about.md
+  - Laboratories:
+      - Laboratory 1: projects/lab8.md
+      - Laboratory 2: projects/lab9.md

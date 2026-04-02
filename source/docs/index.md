@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# SKYLINEEE
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Vyacheslav, backend / neurotechnology
+# from Russia, Saint-Petersburg
 
-## Commands
+## Skills:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- **Python:**
+- **Java** 
+- **Git:** 
 
-## Project layout
+## Open to any proposals for cooperation!
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# You can see my biography in the another section.
+

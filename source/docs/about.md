@@ -1,6 +1,6 @@
 # About me
 
-Hi, my name is Vyacheslav. Im a backend developer and neuroingeneer. I have experience in Python, Java. 
+Hi, my name is Vyacheslav. Im a backend developer and neuroengineer. I have experience in Python, Java. 
 
 ## Education
 
