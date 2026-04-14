@@ -2,6 +2,9 @@ site_name: "SKYLINEEE PORTFOLIO"
 site_description: "Портфолио и лабораторные работы"
 site_url: https://nchskl.github.io/
 
+docs_dir: docs
+site_dir: ../docs
+
 theme:
   name: shadcn
 
