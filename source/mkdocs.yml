@@ -1,6 +1,6 @@
 site_name: "SKYLINEEE PORTFOLIO"
 site_description: "Портфолио и лабораторные работы!"
-site_url: https://nchskl-itmo-py.sourcecraft.site/nchskl-src-io/
+site_url: https://nchskl.github.io/
 
 docs_dir: docs
 site_dir: ../docs
@@ -9,7 +9,7 @@ theme:
   name: shadcn
 
 nav:
-  - SKYLINEEE: index.md
+  - SKYLINEEE: index.md 
   - About me: about.md
   - Laboratories:
       - Laboratory 1: projects/lab8.md
